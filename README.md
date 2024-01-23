@@ -15,3 +15,7 @@
 #Sidebaar Feature
 ![SideBar Feature](https://github.com/angelsantos-19/coding-be-exam/assets/157448314/235ccc79-d702-4e90-a16b-740bd7d7d25d)
 
+#Errors
+![Errors](https://github.com/angelsantos-19/coding-be-exam/assets/157448314/5554baf9-c949-491b-91f3-d7c19bdf82ba)
+
+
