@@ -43,15 +43,14 @@ function destroy(id){
 <Navbar>
     <template #main>
 <br>
-
 <div class="row mb-3">
-    <div class="col-5">
-        <form action="/productlist" class="row g-2 mt-2 mx-5">
+    <div class="col-2 mx-auto">
+        <form action="/productlist" class="row g-2 mt-2">
         <button type="submit" class="btn btn-primary">Show all Listings</button>
         </form>
     </div>
-    <div class="col-5">
-        <form action="/addproduct" class="row g-2 mt-2 mx-5">
+    <div class="col-2 mx-auto">
+        <form action="/addproduct" class="row g-2 mt-2">
         <button type="submit" class="btn btn-primary">Add New Product</button>
         </form>
     </div>
@@ -84,9 +83,9 @@ function destroy(id){
 
 <br>
 <div v-if="products.data && products.data.length > 0">
-<div class="container text-center m-5">
+<div class="container text-center">
   <div class="row">
-        <div class="col mb-4" v-for="product in products.data" :key="product.id">
+        <div class="col-auto mb-4" v-for="product in products.data" :key="product.id">
             <div class="card" style="width: 25rem; height: 22rem;">
                 <div class="card-body">
                     <a class=" nav-link active" href="#" >
@@ -109,17 +108,15 @@ function destroy(id){
             </div>
         </div>
   </div>
-  <div class="mb-4">
+  <div>
   <Bootstrap5Pagination :data="products" @pagination-change-page="getResults"/>
     </div>
     <br>
 </div>
 </div>
-
 <div v-else>
     <p>No products available.</p>
 </div>
 </template>
 </Navbar>
-
 </template>

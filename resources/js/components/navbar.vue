@@ -55,7 +55,7 @@ const props = defineProps({loginsucces: Boolean});
     </div>
   </div>
 </nav>
-<main>
+<main style="background-color: #f0f0f0; display: flex; flex-direction: column; min-height: 100vh;">
     <br>
     <br>
     <br>
@@ -65,11 +65,9 @@ const props = defineProps({loginsucces: Boolean});
 </div>
 <slot name="main">
 </slot>
-
-
 </main>
 
-<footer class="fixed-bottom">
+<footer class="master-footer">
 <nav class="navbar bg-primary opacity-50 ">
     <div class="container-fluid">
     <span class="navbar-text">

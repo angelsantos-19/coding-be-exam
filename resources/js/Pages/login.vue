@@ -15,25 +15,6 @@ const form = useForm({
 function submit(){
     router.post('/login/authenticate',form)
 }
-
-// export default{
-//     data(){
-//         return{
-//             secrets: [],
-//             formData:{
-//                 email:'',
-//                 password:''
-//             }
-//         }
-//     },
-//     methods: {
-//     handleLogin(){
-//         axios.get('sanctum/csrf-cookie').then(response =>{
-//             console.log(response);
-//         });
-//     }
-// }
-// }
 </script>
 <template>
 <Navbar>
@@ -63,7 +44,6 @@ function submit(){
     </form>
   </div>
 </div>
-<br>
 </template>
 </Navbar>
 </template>

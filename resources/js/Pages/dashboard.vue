@@ -34,8 +34,8 @@ onMounted(() => {
 <template>
 <Navbar>
     <template #main>
-        <h1>Dashboard</h1>
-    <div class="row">
+        <h1 class="mx-5">Dashboard</h1>
+    <div class="row mx-4">
     <div class="col-6">
         <div class="card w-80 mb-3">
         <div class="card-body">
@@ -58,6 +58,7 @@ onMounted(() => {
                 </tr>
             </tbody>
             </table>
+            <Bootstrap5Pagination :data="products" @pagination-change-page="getResults"/>
         </div>
         </div>
     </div>
@@ -78,15 +79,15 @@ onMounted(() => {
                 <th scope="row">{{ categoryCount.category }} </th>
                 <td>{{ categoryCount.count }}</td>
                 </tr>
-
             </tbody>
             </table>
+            <Bootstrap5Pagination :data="categoryCounts" @pagination-change-page="getResults"/>
         </div>
         </div>
     </div>
     </div>
 
-    <div class="card w-80 mb-3">
+    <div class="card w-80 mb-2 mx-5">
         <div class="card-body">
             <h5 class="card-title">Users information in Database</h5>
             <table class="table">
@@ -108,10 +109,9 @@ onMounted(() => {
                 </tr>
             </tbody>
             </table>
+        <Bootstrap5Pagination :data="users" @pagination-change-page="getResults"/>
         </div>
         </div>
-    <br>
-    <br>
     </template>
 
 </Navbar>
