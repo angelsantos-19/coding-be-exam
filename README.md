@@ -19,3 +19,15 @@
 ![Errors](https://github.com/angelsantos-19/coding-be-exam/assets/157448314/5554baf9-c949-491b-91f3-d7c19bdf82ba)
 
 
+##Others
+#Poppulating Products and Users Table using Factories, Model and Seeder
+php artisan migrate:refresh --seed (seeder)
+
+#Run vue
+npm run dev
+
+#Run laravel server
+php artisan serve
+
+#Database
+Change the DB_PORT number in the .env file to the port number of your database. I change mine to 3307 port number to match the database of my XAMPP 
