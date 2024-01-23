@@ -19,8 +19,8 @@
 ![Errors](https://github.com/angelsantos-19/coding-be-exam/assets/157448314/5554baf9-c949-491b-91f3-d7c19bdf82ba)
 
 
-##Others
-#Poppulating Products and Users Table using Factories, Model and Seeder
+## Others
+# Poppulating Products and Users Table using Factories, Model and Seeder
 php artisan migrate:refresh --seed (seeder)
 
 #Run vue
