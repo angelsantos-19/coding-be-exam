@@ -28,15 +28,15 @@ function submit(){
   <div class="card-body">
     <form @submit.prevent="submit">
         <div class="mb-2">
-            <label for="exampleInputEmail1" class="form-label">Username/Email</label>
-            <input type="name" id="email" v-model="form.email" class="form-control" >
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="name" id="email" v-model="form.email" class="form-control" placeholder="Email Address" >
             <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             <div class="text-danger text-xs" v-if="errors.email">{{ errors.email }}</div>
         </div>
 
         <div class="mb-2">
             <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" v-model="form.password" >
+            <input type="password" class="form-control" id="password" v-model="form.password" placeholder="Password" >
             <div class="text-danger text-xs" v-if="errors.password">{{ errors.password }}</div>
         </div>
 

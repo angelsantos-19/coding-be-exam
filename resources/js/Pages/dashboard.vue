@@ -40,7 +40,7 @@ onMounted(() => {
         <div class="card w-80 mb-3">
         <div class="card-body">
             <h5 class="card-title">Product information in Database</h5>
-            <table class="table">
+            <table class="table table-striped">
             <thead>
                 <tr>
                 <th scope="col">#</th>
@@ -67,7 +67,7 @@ onMounted(() => {
         <div class="card w-80 mb-3">
         <div class="card-body">
             <h5 class="card-title">Product Category Count</h5>
-            <table class="table">
+            <table class="table table-striped">
             <thead>
                 <tr>
                 <th scope="col">Category</th>
@@ -90,7 +90,7 @@ onMounted(() => {
     <div class="card w-80 mb-2 mx-5">
         <div class="card-body">
             <h5 class="card-title">Users information in Database</h5>
-            <table class="table">
+            <table class="table table-striped">
             <thead>
                 <tr>
                 <th scope="col">#</th>

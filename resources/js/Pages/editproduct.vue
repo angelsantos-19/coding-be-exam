@@ -24,7 +24,7 @@ function submit(){
 <template #main>
 <div class="card col-6 offset-3 mb-5">
   <div class="card-header">
-    Add New Product
+    Edit Current Product
   </div>
   <div class="card-body">
     <form @submit.prevent="submit" enctype="multipart/form-data">

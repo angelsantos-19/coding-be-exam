@@ -86,7 +86,7 @@ function destroy(id){
 <div class="container text-center">
   <div class="row">
         <div class="col-auto mb-4" v-for="product in products.data" :key="product.id">
-            <div class="card" style="width: 25rem; height: 22rem;">
+            <div class="card" style="width: 22rem; height: 22rem;">
                 <div class="card-body">
                     <a class=" nav-link active" href="#" >
                     <img src="https://static-00.iconduck.com/assets.00/no-image-icon-512x512-lfoanl0w.png" alt="Bootstrap" width="105" height="100">
