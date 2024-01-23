@@ -12,7 +12,7 @@
 - shows the list of products that is stored in the database
 ![Product Index](https://github.com/angelsantos-19/coding-be-exam/assets/157448314/93d18c9f-d32b-4860-8126-09ffb0220eb9)
 
-## Product Crud
+## Product CRUD
 - shows the creation, update, deletion of Products in the products list
 ![Product CRUD](https://github.com/angelsantos-19/coding-be-exam/assets/157448314/acb235e7-7529-4808-8681-6fd62bac0c46)
 
