@@ -1,4 +1,4 @@
-#Coding Exam Demo
+# Coding Exam Demo
 
 ## Dashboard
 ![Dashboard](https://github.com/angelsantos-19/coding-be-exam/assets/157448314/e5ef3dd5-bf48-4ff3-a752-6fab3f7211b0)
@@ -19,7 +19,7 @@
 ![Errors](https://github.com/angelsantos-19/coding-be-exam/assets/157448314/5554baf9-c949-491b-91f3-d7c19bdf82ba)
 
 
-# Others
+# Others:
 ## Poppulating Products and Users Table using Factories, Model and Seeder
 php artisan migrate:refresh --seed (seeder)
 
